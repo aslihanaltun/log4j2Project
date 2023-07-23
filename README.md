@@ -1,4 +1,4 @@
-# log4j2Project
+# log4j2 Project
 # Log4J Configuration and myTimerLoggings Java Application
 
 This project demonstrates the usage of Log4J2 for logging configuration in XML format for a Java application. Additionally, it includes a Java class called `myTimerLoggings.java`, which performs logging at three different levels (Debug, Info, Error) with specific time increments for each level.
