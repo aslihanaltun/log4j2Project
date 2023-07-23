@@ -1,7 +1,7 @@
 # log4j2Project
 # Log4J Configuration and myTimerLoggings Java Application
 
-This project demonstrates the usage of Log4J for logging configuration in XML format for a Java application. Additionally, it includes a Java class called `myTimerLoggings.java`, which performs logging at three different levels (Debug, Info, Error) with specific time increments for each level.
+This project demonstrates the usage of Log4J2 for logging configuration in XML format for a Java application. Additionally, it includes a Java class called `myTimerLoggings.java`, which performs logging at three different levels (Debug, Info, Error) with specific time increments for each level.
 
 ## Features
 
@@ -18,21 +18,23 @@ This project demonstrates the usage of Log4J for logging configuration in XML fo
 
 - **File Output**: The log messages are written to files in the format "Timer-day-month-year.log" (e.g., Timer-23-07-2023.log) for easy identification and organization.
 
-- 
+-
+   ![error](https://github.com/aslihanaltun/log4j2Project/assets/70285896/443232c5-251a-4b60-9a93-f6406960e337)
+   ![image](https://github.com/aslihanaltun/log4j2Project/assets/70285896/7d6dfaeb-40c3-4647-9ad4-81df1e58fa40)
 
 ## Usage
 
 To use this application, follow these steps:
 1. Clone the repository to your local machine.
 2. Ensure you have Java Development Kit (JDK) and Log4J2 library installed.
-3. Configure the Log4J XML file (`log4j2.xml`) to specify log file locations, rolling policies, and other settings.
+3. Configure the Log4J2 XML file (`log4j2.xml`) to specify log file locations, rolling policies, and other settings.
 4. Build and run the Java application to see the logging in action.
 
 ## Log4J Configuration
 
-The Log4J configuration is done using the `log4j2.xml` file. Make sure to customize this file according to your preferences to control log levels, log file locations, rollover policies, etc.
+The Log4J2 configuration is done using the `log4j2.xml` file. Make sure to customize this file according to your preferences to control log levels, log file locations, rollover policies, etc.
 
-Example configuration for log4j.xml:
+Example configuration for log4j2.xml:
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
